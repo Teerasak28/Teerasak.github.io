@@ -30,7 +30,7 @@
   position: absolute;
   z-index: -1;
   filter: brightness(45%);
-  background-image: url("https://images.unsplash.com/photo-1504214208698-ea1916a2195a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-image: url("https://wallpapers.com/images/hd/enchanting-forest-trail-4xzor1jwhwnndmfr.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -45,34 +45,37 @@
 .navBar ul {
   display: flex;
   align-items: center;
+  
 }
 .navBar ul li {
   padding: 0 25px;
 }
 .navBar ul li a {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: 400;
   letter-spacing: 1.5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navBar .logo a {
-  font-size: 2.3rem;
+  font-size: 1rem;
   color: #fff;
 }
 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 100%;
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
   align-items: center;
 }
 .phuket {
   color: #fff;
   padding: 25px;
+  
 }
 .card {
   display: grid;
@@ -87,12 +90,9 @@
   font-size: 1.6rem;
   letter-spacing: 1px;
 }
-.card .box1,
-.box2,
-.box3,
-.box4 {
+.card .box1{
   width: 90%;
-  height: 220px;
+  height: 500px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -100,17 +100,9 @@
   cursor: pointer;
 }
 .box1 {
-  background-image: url("https://images.unsplash.com/photo-1579683670728-96c9abc7a088?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-image: url("https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/364412102_269321575851150_2451248852815339804_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEFx0CnyfLX_3sDAM6RbHrSWxMFrZRzxXlbEwWtlHPFeSTV-mVzhxU420i9oAaQnkmDC_d7bHxG02XmRWlnxHxn&_nc_ohc=wOtKWVdtHjgAX_JGFiV&_nc_ht=scontent.fkkc2-1.fna&oh=03_AdRvy0s_jl5lzmUJTYzRcZVQ0HlU8KpIE1YuxA091MO05g&oe=65C76F88");
 }
-.box2 {
-  background-image: url("https://images.unsplash.com/photo-1552464717-70ffd59710bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-}
-.box3 {
-  background-image: url("https://images.unsplash.com/photo-1556609894-0ae309cb8354?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
-}
-.box4 {
-  background-image: url("https://images.unsplash.com/photo-1601225612316-b4733315a717?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-}
+
 .phuket h2 {
   font-size: 2rem;
   letter-spacing: 2.8px;
